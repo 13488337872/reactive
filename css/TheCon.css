@@ -1,0 +1,653 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+input,
+textarea,
+select,
+td,
+th {
+	margin: 0;
+	padding: 0;
+}
+body{
+    background: #f5f5f5;
+}
+/* header */
+header{
+    padding-left: 80px;
+    height: 115px;
+    padding-right: 17px;
+}
+.logoLeft{
+    float: left;
+}
+.logo{
+    float: left;
+    width: 195px;
+    height: 80px;
+    margin-top: 18px;
+    background: url(../img/yue-sprit001.png) no-repeat 0 0;
+    vertical-align: middle;
+}
+.logoLeft p{
+    float: left;
+    vertical-align: middle;
+    margin: 42px 0 0 0;
+    padding-left: 20px;
+    color: #35c1ec;
+    font-size: 25px;
+    font-weight: 100;
+}
+.menu{
+    float: right;
+    height: 115px;
+    position: relative;
+}
+
+.menu ul::after{
+    content: "";
+    width: 0;
+    position: absolute;
+    border-left: 1px solid #35c1ec; 
+    height: 27px;
+    right: 61px;
+    top: 46px;
+}
+.menu ul{
+    line-height: 115px;
+}
+.menu li{
+    float: left;
+    list-style: none;
+}
+.menu li a{
+    margin: 0 3px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    color: #555;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu li:last-child a{
+    margin-left: 10px;
+}
+.search-index{
+    height: 150px;
+    background: url(../img/s_bg.jpg);
+}
+.search-index input{
+    height: 41px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    z-index: 2;
+    width: 54%;
+    float: left;
+    margin-left: 19%;
+    padding: 6px 12px;
+}
+.search-index input::-webkit-input-placeholder{
+    font-size: 15px;
+    line-height: 53px;
+    color: rgb(149, 149, 149);
+}
+.search-index .inpt span{
+    float: left;
+}
+.search-index .btn a{
+    float: left;
+    height: 53px;
+    width: 112px;
+    background: #fdd26d url(../img/yue-sprit001.png) 50% -125px no-repeat;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.search-index{
+    height: 150px;
+    padding: 48.5px 0;
+    box-sizing: border-box;
+}
+/* 智能合同 */
+.contract{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    overflow: hidden;
+}
+.contract h2{
+    text-align: center;
+    font-weight: 300;
+    color: #3e3c3c;
+    padding: 38px 0;
+    font-size: x-large;
+}
+
+.contractList ul{
+    margin-bottom: 22px;
+    height: 280px;
+    background: #fff;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 23%;
+    float: left;
+    box-sizing: border-box;
+}
+.contractList ul .stock{
+    background: #e8b875 url(../img/yue-sprit004.png) no-repeat 35px -47px;
+    text-align: center;
+}
+.contractList ul .property{
+    background: #baa1e2 url(../img/yue-sprit004.png) no-repeat 25px -260px;
+    text-align: center;
+}
+.contractList ul .personnel{
+    background: #6581c3 url(../img/yue-sprit004.png) no-repeat 35px -172px;
+    text-align: center;
+}
+.contractList ul .ensure{
+    background: #fad716 url(../img/yue-sprit004.png) no-repeat 35px -129px;
+    text-align: center;
+}
+.contractList ul .propert{
+    background: #8ea8f8 url(../img/yue-sprit004.png) no-repeat 35px -208px;
+    text-align: center;
+}
+.contractList ul .matrimony{
+    background: #fcbfdb url(../img/yue-sprit004.png) no-repeat 35px -85px;
+    text-align: center;
+}
+.contractList ul .deal{
+    background: #f97b39 url(../img/yue-sprit004.png) no-repeat 35px -315px;
+    text-align: center;
+}
+.contractList ul .serve{
+    background: #97cb26 url(../img/yue-sprit004.png) no-repeat 35px -365px;
+    text-align: center;
+}
+.contractList ul li{
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    border-bottom: 1px dashed #eaeaea;
+    list-style: none;
+    padding-left: 14px;
+    
+}
+.contractList ul li a{
+    font-size: 15px;
+    color: #555;
+    text-decoration: none;
+}
+.contractList ul li:first-child a{
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 19px;
+    color: white;
+}
+.contractList ul .last{
+    text-align: center;
+}
+.contractList ul li:nth-child(1),.contractList ul li:nth-child(6),.contractList ul li:nth-child(7){
+    border-bottom: 0;
+}
+/* 个性化服务 */
+.contract_main{
+    width: 100%;
+    background: white;
+}
+.contract_sub{
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    width: 33.1%;
+    padding: 0 16px;
+}
+.contract_sub a{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    height: 280px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    color: #555;
+    text-decoration: none;
+}
+.contractbtm{
+    background: white;
+    color: #fff;
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+.contract_sub .top_icon p:first-child{
+    font-weight: 100;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 2px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.icon-A,.icon-pencilsquareo,.icon-mortar-board{
+    font-size: 33px;
+}
+.top_icon{
+    padding: 20px 0;
+    background: #f97b39;
+    color: white;
+}
+.contract_sub h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 15px 0 10px 0;
+}
+.contract_sub a>p{
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.signif{
+    color: #f97b39;
+}
+
+.fluid_main{
+    width: 100%;
+    background: #ededed;
+    overflow: hidden;
+}
+.fluid{
+    width: 1170px;
+    margin: 0 auto;
+}
+.fluid li{
+    border-right: 1px solid #ddd;
+    text-align: center;
+    width: 16.5%;
+    float: left;
+    margin: 35px 0;
+    list-style: none;
+}
+.fluid li span{
+    display: inline-block;
+    background: url(../img/yue-sprit0052.png) no-repeat;
+    height: 78px;
+    vertical-align: top;
+}
+.fluid li:nth-child(1) span{
+    width: 118px;
+    background-position: -130px 0;
+}
+.fluid li:nth-child(2) span{
+    width: 99px;
+    background-position: -1px 0px;
+}
+.fluid li:nth-child(3) span{
+    width: 98px;
+    background-position: -4px -84px;
+}
+.fluid li:nth-child(4) span{
+    background-position: -4px -165px;
+    width: 98px;
+}
+.fluid li:nth-child(5) span{
+    background-position: -107px -166px;
+    width: 110px; 
+}
+.fluid li:nth-child(6) span{
+    background-position: -115px -84px;
+    width: 98px;
+}
+.container_main{
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 35px auto 25px;
+    overflow: hidden;
+    background: white;
+}
+.slideshow{
+    float: left;
+    height: 206px;
+}
+.slideshow img{
+    height: 206px;
+}
+.readList ul{
+    float: left;
+    list-style: none;
+    width: 24.61%;
+}
+.readList ul li{
+    list-style: none;
+    padding: 0 10px;
+    margin: 0;
+    border-right: 3px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.readList ul li a{
+    height: 50px;
+    text-decoration: none;
+    display: table-cell;
+    height: 50px;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #333;
+    font-size: 14px;
+}
+.readList ul h2{
+    text-align: center;
+    padding: 10px 0;
+}
+.readList ul h2 a{
+    color: #35c1ec;
+    text-decoration: none;
+    font-weight: 400;
+}
+.readList ul:first-child{
+    border-right: 1px solid #b5b5b5;;
+}
+.readList ul:last-child{
+    border-left: 1px dashed #b5b5b5;;
+}
+.conpanies{
+    padding-bottom: 53px;
+}
+.conpanies_main{
+    width: 100%;
+    background: url(../img/ent-bg.jpg);
+}
+.panieslist{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-left: 1px solid grey; 
+    border-top: 1px solid grey;
+}
+.panieslist img{
+    float: left;
+    width: 16.57%;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.partnerList img{
+    float: left;
+    width: 16.57%;
+}
+.contract_main .contract{
+    padding-bottom: 40px
+}
+footer{
+    width: 100%;
+    background: #efefef;
+    height: auto;
+    color: #7a7a7a;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.btm{
+    width: 1170px;
+    margin: 0 auto;
+}
+.btm ul{
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+}
+.btm ul h3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+.btm ul li{
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btm>div{
+    float: right;
+    margin-top: 130px
+}
+.btm>div p{
+    text-align: right;
+    font-size: 14px;
+    line-height: 28px;
+}
+.icon-sangang{
+    display: none;
+}
+.icon-sangang:hover{
+    background: #35c1ec;
+    color: white;
+    border-radius: 5px; 
+}
+@media screen and (max-width: 1200px){
+    header{
+        height: 80px;
+    }
+    .logo{
+        width: 152px;
+        height: 60px;
+        background: url(../img/yue-sprit001.png) no-repeat -202px 0px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .logoLeft>p{
+        line-height: 80px;
+        margin-top: 0;
+    }
+    .menu ul{
+        line-height: 80px;
+    }
+    .menu ul::after{
+        top: 28px;
+    }
+    .contract{
+        width: 970px;
+    }
+    .contract ul{
+        width: 22.9%;
+    }
+    .fluid{
+        width: 970px;
+    }
+    .container{
+        width: 940px;
+    }
+    .slideshow{
+        width: 25%;
+        box-sizing: border-box;
+    }
+    .slideshow img{
+        width: 100%;
+        height: 100%;
+    }
+    .readList ul{
+        width: 25%;
+        box-sizing: border-box;
+    }
+    .panieslist{
+        width: 970px;
+    }
+    .panieslist img{
+        width: 16.53%;
+    }
+    .btm{
+        overflow: hidden;
+        width: 970px;
+    }
+}
+@media screen and (max-width: 1000px){
+	.menu{
+        display: none;
+    }
+   .icon-sangang{
+       display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 30px;
+        padding: 3px 6px;
+   }
+   .container{
+        width: 720px;
+    }   
+   header{
+       padding-left: 30px; 
+   }
+   .logoLeft>p{
+       font-size: 18px;
+    line-height: 80px;
+    margin-top: 0;
+    }
+    .fluid{
+        width: 750px;
+    }
+    .fluid li{
+        border: 0;
+    }
+
+}
+@media screen and (max-width: 990px){
+    .contract{
+        width: 750px;
+    }
+    .contract ul{
+        width: 30.5%;
+    }
+    .panieslist{
+        width: 750px;
+    }
+    .panieslist img{
+        width: 16.52%;
+    }
+    .btm{
+        overflow: hidden;
+        width: 720px;
+    }
+}
+@media screen and (max-width: 770px){
+	header{
+        padding-left: 10px; 
+    }
+    .search-index input{
+        height: 30px;
+        margin-left: 4%;
+        width: 71%;
+    }
+    .search-index .btn a {
+        height: 42px;
+        background: #fdd26d url(../img/yue-sprit001.png) 50% -131px no-repeat;
+    }
+    .search-index{
+        padding: 54px 0;
+    }
+    .contract{
+        width: 100%;
+    }
+    .contract ul{
+        width: 47%;
+        margin: 0 1.5%;
+        margin-bottom: 20px;
+    }
+    .contract_sub{
+        width: 95%;
+    }
+    .fluid{
+        width: 100%;
+    }
+    .fluid li span{
+        transform: scale(0.6);
+    }
+    .container{
+        width: 100%;
+    }
+    .slideshow{
+        width: 45%;
+        box-sizing: border-box;
+        margin: 0 27.5%;
+    }
+    .slideshow img{
+        width: 100%;
+        height: 100%;
+    }
+    .readList ul{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .panieslist{
+        width: 95%;;
+    }
+    .panieslist img{
+        width: 16.45%;
+    }
+    .btm{
+        width: 100%;
+    }
+    .btm ul{
+        width: 50%;
+        padding-left: 50px;
+        box-sizing: border-box;
+    }
+    .btm>div{
+        width: 100%;
+        margin: 50px;
+    }
+    .btm>div>p{
+        width:100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 560px){
+	.search-index .btn a{
+        width: 80px;
+    }
+    .contract{
+        width: 100%;
+    }
+    .contract ul{
+        width: 95%;
+        margin: 0 1.5%;
+        margin-bottom: 20px;
+    }
+    .contract_sub{
+        width: 100%;
+    }
+    .fluid li{
+        width: 50%;
+    }
+    .panieslist{
+        width: 94.5%;;
+    }
+    .panieslist img{
+        width: 24.7%;
+    }
+    .contract{
+        width: 90%;
+    }
+    .contract_main .contract img{
+        width: 25%;
+    }
+}
+
+
+
+
